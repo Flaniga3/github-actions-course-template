@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@master
         with:
-          name: webpack-artifacts
+          name: webpack artifacts
           path: public
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
